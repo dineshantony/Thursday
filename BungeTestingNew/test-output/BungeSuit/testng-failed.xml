@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BungeSuit]">
+  <test thread-count="5" name="ScreenShotTest(failed)">
+    <classes>
+      <class name="javaClassPack.FullPageScreenShot">
+        <methods>
+          <include name="CaptureFullScreenShot"/>
+        </methods>
+      </class> <!-- javaClassPack.FullPageScreenShot -->
+    </classes>
+  </test> <!-- ScreenShotTest(failed) -->
+</suite> <!-- Failed suite [BungeSuit] -->
