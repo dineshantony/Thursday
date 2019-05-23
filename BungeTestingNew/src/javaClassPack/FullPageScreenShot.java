@@ -39,7 +39,7 @@ public class FullPageScreenShot {
 					url = rowData;
 					driver.get(url);					
 				    Thread.sleep(2000);
-				    Screenshot fpScreenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+				    Screenshot fpScreenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1010)).takeScreenshot(driver);
 				    ImageIO.write(fpScreenshot.getImage(),"PNG",new File(Config.screenshotloc +fileName+".png"));
 
 				}else {
